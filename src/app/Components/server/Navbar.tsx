@@ -12,12 +12,7 @@ export default function Navbarpage({
 }) {
   return (
     <Navbar sticky="top" className={className} style={style} expand="lg">
-      <Container
-        fluid
-        style={{
-          padding: "10px",
-        }}
-      >
+      <Container fluid>
         <NavbarClient />
       </Container>
     </Navbar>

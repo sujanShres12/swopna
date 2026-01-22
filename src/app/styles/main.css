@@ -6,13 +6,23 @@ html,
 body {
   height: 100vh;
   width: 100%;
+  scroll-behavior: smooth;
 }
-.height{
+body {
+  /* background-image: url(../../../public/cropped-logo-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+.height {
   height: 100vh;
 }
-.borderClass{
-  border: 10px solid black
+.navHeight{
+  height: "50px",
 }
-.container-fluid{
-overflow: hidden;
+.borderClass {
+  border: 5px solid black;
+}
+.container-fluid {
+  overflow: hidden;
 }
