@@ -12,7 +12,7 @@ export default function NavbarClient() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#service">Service</Nav.Link>
+          <Nav.Link href="#services">Services</Nav.Link>
           <Nav.Link href="#aboutus">About</Nav.Link>
           <Nav.Link href="#contactus">Contact us</Nav.Link>
         </Nav>

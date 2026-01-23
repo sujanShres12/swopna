@@ -1,15 +1,16 @@
 import { Col, Container, Row } from "react-bootstrap";
 import ParentHeight from "../client/ParentHeight";
+import ContactCard from "../client/ContactCard";
 
-export default function AboutUS() {
+export default function ContactUs() {
   return (
-    <ParentHeight className="" id="aboutus" style={{}}>
+    <ParentHeight className="" id="contactus" style={{}}>
       <Container fluid className="height">
         <Row className="height justify-content-md-center">
-          <Col sm="10" style={{ padding: "50px" }}>
+          <Col sm="12" style={{ paddingTop: "50px" }}>
             <div className="borderClass">
               <h1 style={{ textAlign: "center" }}>
-                <u>About us </u>
+                <u>Services</u>
               </h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -17,6 +18,9 @@ export default function AboutUS() {
                 laborum sit fuga quam iure ratione obcaecati! Voluptates quaerat
                 reiciendis ipsa commodi facere dolores.
               </p>
+            </div>
+            <div>
+
             </div>
           </Col>
         </Row>

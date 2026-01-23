@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/main.css";
+import 'react-multi-carousel/lib/styles.css';
 
 export const metadata: Metadata = {
   title: "Swopna Chitra",
@@ -15,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ height: "300vh" }}>{children}</body>
+      <body style={{ height: "400vh" }}>{children}</body>
     </html>
   );
 }

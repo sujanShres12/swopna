@@ -3,8 +3,8 @@ import ParentHeight from "../client/ParentHeight";
 
 export default function Service() {
   return (
-    <ParentHeight className="" id="service" style={{}}>
-      <Container fluid className="height p-0">
+    <ParentHeight className="" id="services" style={{}}>
+      <Container fluid className="height">
         <Row className="height justify-content-md-center">
           <Col sm="12" style={{ paddingTop: "50px" }}>
             <div className="borderClass">
