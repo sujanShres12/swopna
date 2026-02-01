@@ -36,10 +36,10 @@ export default function Home({
 }) {
   return (
     <ParentHeight className={className || ""} style={{ ...style }} id="home">
-      <Container fluid>
-        <Row style={{padding:'50px'}}>
-          <Col sm="12" className="borderClass">
-            <CaraousalTemplate
+      <Container fluid className="height p-0">
+        <Row className="height" style={{}}>
+          <Col sm="12" className="borderClass height">
+            {/* <CaraousalTemplate
               others={{
                 swipeable: false,
                 autoPlay: true,
@@ -51,14 +51,14 @@ export default function Home({
               {item.map(() => {
                 return <ContactCard />;
               })}
-            </CaraousalTemplate>
+            </CaraousalTemplate> */}
 
-            {/* <iframe
+            <iframe
               src="https://www.youtube.com/embed/6FEsFvZ-hqY?si=-9_qPMTcMoX6Tvr5"
               height={"100%"}
               width={"100%"}
               allow={"autoplay"}
-            /> */}
+            />
           </Col>
         </Row>
       </Container>
